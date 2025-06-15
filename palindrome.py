@@ -8,7 +8,8 @@ class palindrome:
             print("The word is not palindrome")
 
 if __name__=="__main__":
-    word="asdfdsa"
+    # changed the value of the word
+    word="Utsabastu"
     palin_check=palindrome(word)
     palin_check.check()
 
